@@ -1,0 +1,106 @@
+.addProd{
+    margin:0px 80px 40px 80px;
+    padding:0px 10px 10px 10px;
+                                
+}
+          
+.addProd>form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:10px;
+}
+h1{
+    padding:5px;
+}
+.banner{
+    color:white;
+    background-color: rgb(51, 153, 255);
+    outline-color: rgba(0, 0, 75, 0.4);
+    padding: 10px;
+    margin:0px 0px 20px 0px;
+}
+.formAdd{
+    margin-top: 5px;
+    margin-bottom: 5px;
+                    
+}
+.formAdd label{
+    display: inline-block;
+    box-sizing: border-box;
+    width:170px;
+    vertical-align: top;
+    margin-right:5px;
+    font-size: 1.3em;
+                
+ }
+ .input1,textarea{
+    width:300px;
+ }
+         
+.input1{
+    padding: 7px 15px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+                
+}
+ span{
+    padding: 5px;
+    display: inline-block;
+ }
+         
+input[type="submit"], input[type="button"],input[type="file"],input[type="reset"]{
+    border-radius: 3px;
+    padding: 5px;
+    margin: 10px 20px 10px 0px;
+}
+input[type="submit"]{
+    background-color:#093579;
+    color: white;
+}
+
+input[type='submit']:hover{
+   background-color:rgb(134, 7, 7);
+}
+input[type='button']:hover{
+    color:white;
+    background-color:rgba(0, 0, 75, 0.3);
+}
+          
+.errorAdd{
+    color:red;
+}
+            
+/*image error*/
+.imageErr{
+    box-sizing: border-box;
+    margin: 10px auto 0px auto;
+    font-size: 1.1em;
+    text-align: center;
+    color:red;
+                 
+}
+.uploadMessage{
+    box-sizing: border-box;
+    margin: 10px auto 0px auto;
+    padding:5px 200px 5px 200px;
+    font-size: 1.3em;
+}
+.mainBody{
+    display: flex;
+    box-sizing: border-box;
+}
+                 
+.header{
+    width: 21%;
+    box-sizing: border-box;                
+    min-height: 100%;               
+    background: #404040;
+    }
+                
+.addProd{
+    width: 79%;
+    box-sizing: border-box;
+}

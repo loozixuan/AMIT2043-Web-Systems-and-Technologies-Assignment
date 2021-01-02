@@ -1,0 +1,127 @@
+.message{
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: rgb(187, 255, 153);
+     border: 2px outset rgb(153, 255, 102);
+     width:300px;
+     margin:40px auto 0px auto;
+     padding-top:8px;
+}
+.checkout{
+    margin:40px 80px 80px 80px;
+}
+
+.banner{
+    font-size: 1.1em;
+    background-image: linear-gradient(to left top, #1c09ff, #5d32fd, #7e4ffb, #9869f8, #ad83f6);
+    color:white;
+    padding: 10px;
+    margin:0px 0px 20px 0px;
+   
+}
+
+.col-1-2{
+    width:50%;
+     float:left;
+    
+}
+.col-1-2:after{
+    clear:both;
+}
+.formRow{
+    margin: 20px 0px 15px 0px;
+    width: 100%;
+}
+
+.formRow label{
+    display: inline-block;
+    width: 200px;
+    font-size: 1.2em;
+    vertical-align: top;
+}
+
+
+.text-danger{
+    color: red;
+}
+.formRow input, .formRow select,.formRow textarea{
+    width: 300px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+/*order*/
+table.order{
+  margin: 15px 0px 15px 0px;
+  width:550px;
+  border: 1px outset rgba(0, 0, 75, 0.1);
+  border-collapse: collapse;
+}
+tr.title{
+  height: 30px;
+  font-size: 1.1em;
+  background-color: #F7F7F7;
+  
+}
+
+
+
+tr.bill{
+  
+  height: 20px;
+  padding: 10px;
+  background-color: #F7F7F7;
+  
+}
+.bill td{
+    padding:5px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+div.checkout-button input{
+    background-image: linear-gradient(to left top, #1c09ff, #5d32fd, #7e4ffb, #9869f8, #ad83f6);
+    border: #9966ff 1px solid;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    width:200px;
+    padding:10px;
+    font-size:1.2em;
+   
+
+}
+
+
+div.checkout-button input:hover{
+    background-color: white;
+    color:linear-gradient(to left top, #1c09ff, #5d32fd, #7e4ffb, #9869f8, #ad83f6);
+}
+
+
+@media only screen and (max-width: 640px) {
+    /*Form*/
+.checkout{
+    margin:30px 40px 80px 40px;
+}
+.formRow label{
+    font-size: 1.1em;
+       
+}
+
+.formRow input, .formRow select,.formRow textarea{
+   width: 400px;    
+   font-size: 1.1em;
+}
+.col-1-2{
+    clear:both;
+}
+table.order{
+  
+  width:430px;
+}
+}

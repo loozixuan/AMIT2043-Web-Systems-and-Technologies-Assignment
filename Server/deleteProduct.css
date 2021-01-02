@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 2, 2020, 10:38:35 AM
+    Author     : zixua
+*/
+           
+            
+            #delete label{
+                font-size: 1.25em;
+                line-height: 0.5em;
+            }
+            /*button*/
+           
+            #delete input[type="submit"]:hover{
+             border-color:#7a7a7a;
+            }
+            #delete input[type="submit"]:active{
+             background-color:#999999;
+            }
+            
+             @font-face{
+              font-family: p;
+              src: url(FrankRuhlLibre-Regular.ttf);
+            }
+            
+           
+           
+                
+            @media all and (max-width:30em){
+             #delete input[type="submit"]{
+              display:block;
+              margin:0.2em auto;
+             }
+             
+           
+}

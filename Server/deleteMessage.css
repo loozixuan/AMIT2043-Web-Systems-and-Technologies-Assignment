@@ -1,0 +1,78 @@
+                .mainBody{
+                    display: flex;
+                    box-sizing: border-box;
+                }
+                 
+                .header{
+                   width: 19%;
+                   box-sizing: border-box;                
+                   min-height: 100%;               
+                   background: #333;
+                }
+                
+              .delete{
+                    width: 75%;
+                    box-sizing: border-box;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    font-size: 20px;
+                }
+                .delete h2{
+                     font-family: p;
+                background-color: tomato;
+                color: white;
+                text-align: center;
+                padding:9px;
+                border-radius: 3px; 
+                border: 2px solid black;
+                }
+               .delete label{
+                    font-size: 22px;
+                }
+                 .delete input[type=submit]{
+                    background-color: #4CAF50;
+                     border: none;
+                    color: white;
+                    padding: 10px 18px;
+                    text-decoration: none;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                   }
+                .paper{
+                height: 380px;
+                width: 700px;
+                margin: 50px auto;
+                background-color: #DDD;
+                position: relative;
+                overflow: hidden;
+                }
+                .paper::after{
+                    content: '';
+                    display: block;
+                    border-width: 0px 75px 75px 0px;
+                    border-style: solid;
+                    border-color: #d7d7d7 transparent;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+                .paper::after{
+                    content: '';
+                    display: block;
+                    border-width: 0px 75px 75px 0px;
+                    border-style: solid;
+                    border-color: #d7d7d7 #FFF;
+                    box-shadow: -5px 6px 10px rgb(129, 127, 127);
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+                .paper>label{
+                    padding: 10px;
+                    margin-left: 20px;
+                }

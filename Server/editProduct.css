@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 19, 2020, 11:57:41 AM
+    Author     : zixua
+*/
+
+            .editForm{
+                margin:25px 80px 40px 80px;
+                padding:10px;   
+                width: 70%;
+            }
+          
+            .editForm form{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding:10px;
+            }
+            h1{
+                padding:5px;
+            }
+            .banner{
+                font-size: 1.1em;
+                background-color: rgba(0, 0, 75, 0.1);
+                outline-color: rgba(0, 0, 75, 0.4);
+                padding: 10px;
+                margin:0px 0px 20px 0px;
+            }
+            .formAdd{
+                margin-top: 5px;
+                margin-bottom: 5px;
+                    
+            }
+            .formAdd label{
+               
+                box-sizing: border-box;
+                width:150px;
+                vertical-align: top;
+                padding-top:3px;
+                font-size: 1.3em;
+                
+            }
+            .formAdd input,textarea{
+                width:300px;
+            }
+            .errorAdd{
+                color:red;
+            }
+            form input[type="text"]{
+                 padding: 5px 15px;
+                 margin: 4px 0;
+                 display: inline-block;
+                 border: 1px solid #ccc;
+                 border-radius: 4px;
+                 box-sizing: border-box; 
+               
+            }
+            
+             form input[type="submit"],  form input[type="button"], form input[type="file"]{
+             border-radius: 3px;
+             padding: 5px;
+             margin: 10px 20px 10px 0px;
+            }
+             form input[type="submit"]{
+
+              background-color:#093579;
+              color: white;
+            }
+
+            form input[type='submit']:hover{
+
+             background-color:rgb(134, 7, 7);
+            }
+            
+          form input[type='button']:hover{
+             color:white;
+             background-color:rgba(0, 0, 75, 0.3);
+          }
+          
+          .uploadMessage{
+              box-sizing: border-box;
+              margin: 10px auto 0px auto;
+              padding:5px 340px 5px 320px;
+              font-size: 1.3em;
+          }
+          .mainBody{
+                display: flex;
+                box-sizing: border-box;
+            }
+
+            .header{
+               width: 19%;
+               box-sizing: border-box;                
+               min-height: 100%;               
+               background: #404040;
+            }
+
+            .addProd{
+                width: 79%;
+                box-sizing: border-box;
+            }
+            
+             

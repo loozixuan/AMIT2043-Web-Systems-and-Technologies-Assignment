@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+  body{
+    width: 100%; 
+    margin-left:auto; 
+    margin-right: auto; 
+    min-height:100%;
+    height:100%;
+  }
+
+  .col-1-2{
+    width: 50%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 75px;
+   
+  }
+
+  .row{
+    clear: both;
+  }
+  
+  /*Header Pictire*/
+  #headerPic img{
+      width:100%;
+      height:450px;
+  }
+  
+  #headerPic{
+      position: relative;
+  }
+  
+  #headerPic::after{
+      content: "";
+      display:block;
+      position: absolute;
+      height:45px;
+      left:0;
+      background-image: url(../Sharing/torn-border.png);
+      bottom: 0;
+      width: 100%;
+  }
+  
+  /* Accordian*/
+  #HeaderFAQ{
+    font-family: exo;
+    font-size: 80px;
+    text-align: center;
+    color: #432109;
+    text-shadow: 1px 1px 6px black;
+   }
+
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15.5px;
+    transition: 0.4s;
+  }
+  
+  .accordion:hover {
+    background-color: #ccc; 
+    text-decoration: none;
+  }
+  
+  .accordion:after {
+  content: url(upload.png); 
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+ }
+
+  .active1:after {
+    content: url(arrowDown.png);  
+ }
+ 
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    line-height: 1.6em;
+    text-align: left;
+  }
+
+
+ /*link in the accordian*/
+.panel a{
+text-decoration: none;
+}
+
+.panel a:link{
+  color: rgb(114, 109, 109);
+}
+
+.panel a:visited{
+  color: rgb(58, 47, 47);
+}
+
+.panel a:hover{
+  color: rgb(39, 241, 12);
+}
+
+ .panel a:active{
+   color: chartreuse;
+ }
+
+ /*contact link*/
+ #contactLink{
+  font-size: 30px;
+  padding-left: 540px;
+ }
+ 
+ #contactLink a{
+  text-decoration: none;
+ 
+ }
+ 
+  #contactLink a:hover{
+  text-decoration: none;
+ 
+ }
+
+
+ @media only screen and (max-width: 650px){
+     .col-1-2:after{
+         float:none;
+     }
+ }
+ 
+
+
+

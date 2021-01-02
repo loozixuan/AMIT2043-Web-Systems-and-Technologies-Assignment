@@ -1,0 +1,183 @@
+body {
+	font-family: Arial;
+	color: #211a1a;
+	font-size: 0.9em;
+}
+
+#shopping-cart {
+	margin: 40px;
+}
+
+#product-grid {
+	margin: 40px;
+}
+
+#shopping-cart table {
+	width: 100%;
+	background-color: rgba(0, 0, 75, 0.1);
+}
+
+#shopping-cart table td {
+	background-color: #FFFFFF;
+}
+
+.txt-heading {
+	color: #211a1a;
+	border-bottom: 1px solid #E0E0E0;
+	overflow: auto;
+}
+
+#btnEmpty {
+	background-color: #ffffff;
+	border: #d00000 1px solid;
+	padding: 5px 10px;
+	color: #d00000;
+	float: right;
+	text-decoration: none;
+	border-radius: 3px;
+	margin: 10px 0px;
+}
+/*product*/
+.btnAddAction {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: darkcyan;
+    border: darkcyan 1px solid;
+    color: white;
+   
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btnAddAction:hover{
+    background-color: white;
+    color:darkcyan;
+}
+
+#product-grid .txt-heading {
+	margin-bottom: 18px;
+}
+
+.product-item {
+        box-sizing: border-box;
+        width:23%;
+	float: left;
+	background: #ffffff;
+	margin: 30px 10px 0px 10px;
+	
+}
+.product-item:after{
+    clear:both;
+}
+
+.product-image {
+	
+	width: 200px;
+	background-color: #FFF;
+        box-sizing: border-box;
+}
+.product-image img{
+    width:100%;
+}
+
+.clear-float {
+	clear: both;
+}
+
+.demo-input-box {
+	border-radius: 2px;
+	border: #CCC 1px solid;
+	padding: 2px 1px;
+}
+
+
+
+
+/*product*/
+.product-title {
+	margin-bottom: 10px;
+}
+
+.product-price {
+    padding:2px;
+	
+}
+
+
+
+.product-quantity {
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: #E0E0E0 1px solid;
+}
+
+.product-tile-footer {
+    
+    clear:both;
+    padding: 15px 15px 0px 15px;
+    overflow: auto;
+}
+
+/*cart*/
+
+.tbl-cart {
+	font-size: 0.9em;
+}
+
+.tbl-cart th {
+	font-weight: normal;
+}
+
+.cart-item-image {
+	width: 130px;
+    height: 120px;
+    padding: 5px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.no-records {
+	text-align: center;
+	clear: both;
+	margin: 38px 0px;
+}
+qty{
+   
+  display:flex;
+ 
+}
+
+.checkout-button input{
+    background-color: darkcyan;
+    border: darkcyan 1px solid;
+    color: white;
+     border-radius: 3px;
+     text-align: center;
+     float:right;
+     margin:10px;
+     width:120px;
+    
+    
+}
+.checkout-button input:after{
+    float:none;
+    clear:both;
+}
+
+.checkout-button input:hover{
+    background-color: white;
+    color:darkcyan;
+}
+
+@media only screen and (max-width: 640px){
+    .product-item{
+        float:none;
+        width:50%;
+    }
+}
+@media only screen and (max-width: 740px){
+    .product-item{
+        float:none;
+        width:50%;
+    }
+}
+

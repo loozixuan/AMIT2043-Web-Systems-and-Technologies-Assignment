@@ -1,0 +1,102 @@
+                      .beMember{
+               margin:20px 50px 20px 50px;
+               box-sizing: border-box;
+               border: 1px solid #ccc;
+               display:flex;
+               margin-bottom: 40px;
+            }
+          
+            .beMember>div.col-1-3{
+                
+             width:40%;
+            
+             background-image: url(../Sharing/image/signupBackground.jpg);
+             padding:100px;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             height:1000px;
+             
+            }
+            .col-2-3{
+                width:66%;
+              
+            }
+     
+            .signInLogo{
+                margin : 10px auto 0px auto;
+               
+                box-sizing: border-box;
+                width:140px;
+            }
+            .signInLogo img{
+                
+                width:100%;
+            }
+
+            table{    
+               
+                margin-right: auto;
+                margin-left: auto;
+            }
+            label{
+                font-size: 1.3em;
+            }
+
+            input{
+                  width: 100%;
+                 padding: 5px 15px;
+                 margin: 4px 0;
+                display: inline-block;
+                 border: 1px solid #ccc;
+                 border-radius: 4px;
+                 box-sizing: border-box; 
+                
+            }
+        
+       
+            input[type="submit"], input[type="reset"]{
+             border-radius: 3px;
+             padding: 8px;
+             margin: 5px 5px 5px 0px;
+            }
+            input[type="submit"]{
+
+              background-color:#093579;
+              color: white;
+            }
+
+           input[type='submit']:hover{
+
+             background-color:rgb(134, 7, 7);
+            }
+         input[type='reset']:hover{
+             color:white;
+             background-color:rgba(0, 0, 75, 0.3);
+          }
+          
+          /*error*/
+          .error{
+              color:red;
+          }
+          
+          
+      
+
+         @media only screen and (max-width: 640px){
+
+              .beMember{
+                  margin:10px;
+              }
+              .beMember>div.col-1-3{
+                  display:none;
+                  padding:0px;   
+                  width:0%;
+            }
+            .col-2-3{
+                width:100%;
+              margin-left: auto;
+              margin-right: auto;
+            }
+                }
+       

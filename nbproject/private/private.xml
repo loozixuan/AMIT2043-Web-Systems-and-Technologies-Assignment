@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="3">
+        <file>
+            <url>Checkout/checkout.php</url>
+            <bookmark id="3">
+                <name/>
+                <line>163</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>Server/homeServer.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>ProductCatalog/productPage.php</url>
+            <bookmark id="2">
+                <name/>
+                <line>104</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/WST/Account/account.php</file>
+            <file>file:/C:/xampp/htdocs/WST/Sharing/SignUp.css</file>
+            <file>file:/C:/xampp/htdocs/WST/Sharing/header.php</file>
+            <file>file:/C:/xampp/htdocs/WST/Sharing/Login.php</file>
+            <file>file:/C:/xampp/htdocs/WST/Sharing/SignUp.php</file>
+            <file>file:/C:/xampp/htdocs/WST/Sharing/Logout.php</file>
+        </group>
+    </open-files>
+</project-private>

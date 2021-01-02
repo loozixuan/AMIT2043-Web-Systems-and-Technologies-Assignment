@@ -1,0 +1,126 @@
+
+.myAccount{
+    margin:50px;
+}
+h1{
+    font-size:1.7em;
+}
+.column{
+    display:flex;
+    margin:20px 20px 40px 0px;
+}
+
+/*sidebar*/
+.col-1-4{
+    width:25%;
+   
+}
+.col-1-4 table{
+    margin-top:40px;
+    background-color: #F0FFF0;
+    width:75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col-1-4 td{
+    padding:20px;
+   
+}
+.col-1-4 td>a{
+     color:#808080;
+}
+.col-1-4 td>a:hover{
+     color:black;
+}
+
+
+.col-1-4 i{
+    padding-right: 20px;
+}
+
+/*content */
+.update_message{
+    box-sizing: border-box;
+    text-align: center;
+    margin:10px 20px 30px 20px;
+    font-size: 1.2em;
+    padding:10px;
+    background-color:#33cc00;
+    color:white;
+        
+}
+.col-3-4{
+    margin-top:40px;
+    width:75%;
+    padding:60px;
+    background-color: honeydew;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-danger{
+    color: red;
+}
+.row{
+    margin:20px;
+}
+label{
+    font-size:1.3em;
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+}
+.row>input{
+    width: 300px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+table{
+    margin:20px 0px 40px 0px;
+}
+td{
+    width: 70%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+td>input{
+    width: 70%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+}
+input[type='submit']{
+    margin:20px 0px 30px 0px;
+    padding:10px;
+    background-color:#33cc00;
+    color:white;
+    font-size:1.1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type='submit']:hover{
+    background-color: #269900;
+}
+.no_register{
+    margin:60px;
+    text-align: center;
+    
+}
+.no_register h1{
+    color:rgb(51, 204, 204);
+    padding:10px;
+}
+input[type='button']{
+    border: 3px solid black;
+    padding:15px 25px 15px 25px;
+    font-size: 1.2em;
+    margin:20px;
+    
+}
+input[type='button']:hover{
+    background-color: black;
+    color:white;
+}
